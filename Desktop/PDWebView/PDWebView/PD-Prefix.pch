@@ -1,0 +1,29 @@
+//
+//  NFYY-Prefix.pch
+//  NFYY
+//  公共头文件
+//  Created by Kingsley on 15/7/30.
+//  Copyright (c) 2015年 Character Information. All rights reserved.
+//
+
+#import <Availability.h>
+
+#ifdef __OBJC__
+//官方库文件
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <CoreData/CoreData.h>
+#import <QuartzCore/QuartzCore.h>
+#import "AppDelegate.h"
+
+//公共辅助类
+#import "CommonHelper.h"
+#import "BaseViewController.h"
+#import "Macros.h"
+
+//第三方类库
+#import "UnrarKit.h"
+#import "UIAlertView+Blocks.h"
+
+
+#endif
